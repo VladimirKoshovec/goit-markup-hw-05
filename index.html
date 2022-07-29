@@ -17,6 +17,12 @@
 </head>
 
 <body>
+    <div class="backdrope is-hidden" data-modal>
+        <div  class="backdrope-form">
+          <button type="button" class="backdrope-close-button" data-modal-close>
+          </button>
+        </div>
+    </div>
     <header class="pagehader">
         <div class="hader-nav container">
             <nav class="menu">
@@ -49,7 +55,7 @@
         <!--hero-->
         <section class="hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="hero-button">Заказать услугу</button>
+            <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
         </section>
 
         <!--principles-->
@@ -352,6 +358,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
